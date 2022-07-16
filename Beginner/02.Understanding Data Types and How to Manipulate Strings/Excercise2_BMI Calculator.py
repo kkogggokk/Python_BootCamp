@@ -4,8 +4,8 @@ weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-# BMI = int(int(weight) / (float(height) * float(height)))
-# BMI = int(int(weight) / float(height) ** 2)
+BMI = int(int(weight) / (float(height) * float(height)))
+BMI = int(int(weight) / float(height) ** 2)
 
 import math 
 BMI = int(int(weight) / math.pow(float(height), 2))
