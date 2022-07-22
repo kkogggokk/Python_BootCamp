@@ -34,7 +34,7 @@ print(Eazy_pwd)
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 Hard_pwd = []
 ''' 
-- 방법1) 갯수대로 뽑고 난 다음에 랜덤하게 정렬하는 방법 => shuffle() => 우선 이방법 먼저 해보자... 
+- 방법1) 갯수대로 뽑고 난 다음에 랜덤하게 정렬하는 방법 => shuffle()
 - 2) 전체길이에서 letter, symbol, number 갯수만큼 처음부터 랜덤하게 뽑을수 있나.. 흠..
 '''
 for i in range(nr_letters): 
